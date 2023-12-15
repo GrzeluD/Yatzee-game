@@ -46,7 +46,7 @@ public class DiceGameSimulator {
             view.displayMessage(resultMessage);
         } catch (NumberFormatException | WrongResultsException e) {
             // Display error message in case of an exception
-            view.displayErrorMessage(e.getMessage());
+            view.displayMessage(e.getMessage());
         }
     }
 }

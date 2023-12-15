@@ -38,15 +38,6 @@ public class DiceView {
     }
 
     /**
-     * Displays an error message to the user.
-     *
-     * @param message The error message to be displayed.
-     */
-    public void displayErrorMessage(String message) {
-        System.out.println("Error: " + message);
-    }
-
-    /**
      * Obtains user input for the dice game.
      *
      * @return List of integers representing user input.
