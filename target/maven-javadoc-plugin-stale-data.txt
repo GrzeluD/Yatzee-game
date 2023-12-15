@@ -1,0 +1,50 @@
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'21'
+-sourcepath
+'/home/grzelu/Code/DiceGameSimulator/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/grzelu/Code/DiceGameSimulator/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'DiceGameSimulator 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'DiceGameSimulator 1.0-SNAPSHOT API'
+utils
+model
+controller
+view
+/home/grzelu/Code/DiceGameSimulator/src/main/java = 1702129551158
+/home/grzelu/Code/DiceGameSimulator/target/site/apidocs/search.html = 1702673296606
+/home/grzelu/Code/DiceGameSimulator/target/site/apidocs/index.html = 1702673296559
+/home/grzelu/Code/DiceGameSimulator/target/site/apidocs/serialized-form.html = 1702673296499
+/home/grzelu/Code/DiceGameSimulator/target/site/apidocs/overview-summary.html = 1702673296606
+/home/grzelu/Code/DiceGameSimulator/target/site/apidocs/module-search-index.js = 1702673296586
+/home/grzelu/Code/DiceGameSimulator/target/site/apidocs/help-doc.html = 1702673296609
+/home/grzelu/Code/DiceGameSimulator/target/site/apidocs/package-search-index.js = 1702673296586
+/home/grzelu/Code/DiceGameSimulator/target/site/apidocs/script.js = 1702673296612
+/home/grzelu/Code/DiceGameSimulator/target/site/apidocs/search.js = 1702673296616
+/home/grzelu/Code/DiceGameSimulator/target/site/apidocs/element-list = 1702673296446
+/home/grzelu/Code/DiceGameSimulator/target/site/apidocs/type-search-index.js = 1702673296586
+/home/grzelu/Code/DiceGameSimulator/target/site/apidocs/copy.svg = 1702673296616
+/home/grzelu/Code/DiceGameSimulator/target/site/apidocs/link.svg = 1702673296616
+/home/grzelu/Code/DiceGameSimulator/target/site/apidocs/search-page.js = 1702673296619
+/home/grzelu/Code/DiceGameSimulator/target/site/apidocs/tag-search-index.js = 1702673296589
+/home/grzelu/Code/DiceGameSimulator/target/site/apidocs/allclasses-index.html = 1702673296582
+/home/grzelu/Code/DiceGameSimulator/target/site/apidocs/index-all.html = 1702673296602
+/home/grzelu/Code/DiceGameSimulator/target/site/apidocs/member-search-index.js = 1702673296589
+/home/grzelu/Code/DiceGameSimulator/target/site/apidocs/overview-tree.html = 1702673296556
+/home/grzelu/Code/DiceGameSimulator/target/site/apidocs/allpackages-index.html = 1702673296586
+/home/grzelu/Code/DiceGameSimulator/target/site/apidocs/stylesheet.css = 1702673296612
