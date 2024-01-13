@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="model.DiceModelTest" time="0.206" tests="16" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="model.DiceModelTest" time="0.208" tests="17" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="user.country" value="PL"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib64/jvm/java-21-openjdk-21/lib"/>
-    <property name="sun.java.command" value="/home/grzelu/Code/DiceGameSimulator/target/surefire/surefirebooter-20231215214446167_3.jar /home/grzelu/Code/DiceGameSimulator/target/surefire 2023-12-15T21-44-46_041-jvmRun1 surefire-20231215214446167_1tmp surefire_0-20231215214446167_2tmp"/>
+    <property name="sun.java.command" value="/home/grzelu/Code/DiceGameSimulator/target/surefire/surefirebooter-20240113094139041_3.jar /home/grzelu/Code/DiceGameSimulator/target/surefire 2024-01-13T09-41-38_919-jvmRun1 surefire-20240113094139041_1tmp surefire_0-20240113094139041_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="model.DiceModelTest"/>
     <property name="surefire.test.class.path" value="/home/grzelu/Code/DiceGameSimulator/target/test-classes:/home/grzelu/Code/DiceGameSimulator/target/classes:/home/grzelu/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.0/junit-jupiter-api-5.6.0.jar:/home/grzelu/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/grzelu/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/grzelu/.m2/repository/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.jar:/home/grzelu/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.0/junit-jupiter-params-5.6.0.jar:/home/grzelu/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.0/junit-jupiter-engine-5.6.0.jar:/home/grzelu/.m2/repository/org/junit/platform/junit-platform-engine/1.6.0/junit-platform-engine-1.6.0.jar:"/>
@@ -28,7 +28,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/home/grzelu/Code/DiceGameSimulator/target/surefire/surefirebooter-20231215214446167_3.jar"/>
+    <property name="surefire.real.class.path" value="/home/grzelu/Code/DiceGameSimulator/target/surefire/surefirebooter-20240113094139041_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.1+-suse-2.2-x8664"/>
     <property name="user.name" value="grzelu"/>
@@ -55,20 +55,21 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testProcessGameResultsInvalidSize(List)[1]" classname="model.DiceModelTest" time="0.063"/>
-  <testcase name="testProcessGameResultsInvalidSize(List)[2]" classname="model.DiceModelTest" time="0.003"/>
-  <testcase name="testProcessGameResultsInvalidSize(List)[3]" classname="model.DiceModelTest" time="0.005"/>
+  <testcase name="testEvaluateGameResultMessage(int, int, int, int, int, String)[1]" classname="model.DiceModelTest" time="0.067"/>
+  <testcase name="testEvaluateGameResultMessage(int, int, int, int, int, String)[2]" classname="model.DiceModelTest" time="0.002"/>
+  <testcase name="testEvaluateGameResultMessage(int, int, int, int, int, String)[3]" classname="model.DiceModelTest" time="0.002"/>
+  <testcase name="testEvaluateGameResultMessage(int, int, int, int, int, String)[4]" classname="model.DiceModelTest" time="0.002"/>
+  <testcase name="testEvaluateGameResultMessage(int, int, int, int, int, String)[5]" classname="model.DiceModelTest" time="0.002"/>
+  <testcase name="testEvaluateGameResultMessage(int, int, int, int, int, String)[6]" classname="model.DiceModelTest" time="0.002"/>
+  <testcase name="testEvaluateGameResultMessage(int, int, int, int, int, String)[7]" classname="model.DiceModelTest" time="0.003"/>
+  <testcase name="testProcessGameResultsInvalidSize(List)[1]" classname="model.DiceModelTest" time="0.003"/>
+  <testcase name="testProcessGameResultsInvalidSize(List)[2]" classname="model.DiceModelTest" time="0.001"/>
+  <testcase name="testProcessGameResultsInvalidSize(List)[3]" classname="model.DiceModelTest" time="0.001"/>
   <testcase name="testProcessGameResultsInvalidRange(List)[1]" classname="model.DiceModelTest" time="0.001"/>
-  <testcase name="testProcessGameResultsInvalidRange(List)[2]" classname="model.DiceModelTest" time="0.002"/>
+  <testcase name="testProcessGameResultsInvalidRange(List)[2]" classname="model.DiceModelTest" time="0.001"/>
   <testcase name="testProcessGameResultsInvalidRange(List)[3]" classname="model.DiceModelTest" time="0.001"/>
   <testcase name="testProcessGameResultsValid(List)[1]" classname="model.DiceModelTest" time="0.003"/>
-  <testcase name="testProcessGameResultsValid(List)[2]" classname="model.DiceModelTest" time="0.002"/>
+  <testcase name="testProcessGameResultsValid(List)[2]" classname="model.DiceModelTest" time="0.001"/>
   <testcase name="testProcessGameResultsValid(List)[3]" classname="model.DiceModelTest" time="0.001"/>
-  <testcase name="testGetGameResultMessage(int, int, int, int, int, String)[1]" classname="model.DiceModelTest" time="0.011"/>
-  <testcase name="testGetGameResultMessage(int, int, int, int, int, String)[2]" classname="model.DiceModelTest" time="0.002"/>
-  <testcase name="testGetGameResultMessage(int, int, int, int, int, String)[3]" classname="model.DiceModelTest" time="0.001"/>
-  <testcase name="testGetGameResultMessage(int, int, int, int, int, String)[4]" classname="model.DiceModelTest" time="0.001"/>
-  <testcase name="testGetGameResultMessage(int, int, int, int, int, String)[5]" classname="model.DiceModelTest" time="0.001"/>
-  <testcase name="testGetGameResultMessage(int, int, int, int, int, String)[6]" classname="model.DiceModelTest" time="0.002"/>
-  <testcase name="testGetGameResultMessage(int, int, int, int, int, String)[7]" classname="model.DiceModelTest" time="0.002"/>
+  <testcase name="testProcessGameResultsWithNull(List)[1]" classname="model.DiceModelTest" time="0.002"/>
 </testsuite>

@@ -1,1 +1,1 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"controller","l":"DiceGameSimulator"},{"p":"model","l":"DiceModel"},{"p":"view","l":"DiceView"},{"p":"utils","l":"ParserUtils"},{"p":"model","l":"WrongResultsException"}];updateSearchResults();
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"controller","l":"DiceGameSimulator"},{"p":"view","l":"DiceGUI"},{"p":"model","l":"DiceModel"},{"p":"utils","l":"ParserUtils"},{"p":"model","l":"WrongResultsException"}];updateSearchResults();

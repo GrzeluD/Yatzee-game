@@ -25,8 +25,8 @@ interface ResultProcessor {
  * Class representing the model of a dice game. Encapsulates logic for
  * processing input arguments, validation, and storing results of a dice game.
  *
- * @author grzelu
- * @version 2.0
+ * @author Grzegorz Dziedzic
+ * @version 1.3
  */
 public class DiceModel {
 
@@ -59,15 +59,19 @@ public class DiceModel {
      * @throws WrongResultsException If validation fails.
      */
     public List<Integer> processGameResults(List<Integer> args) throws WrongResultsException {
+        if (args == null) {
+            throw new WrongResultsException("Invalid argument.");
+        }
+
         if (!hasFiveElements(args) || args.isEmpty()) {
-            throw new WrongResultsException("Too many or not enough arguments");
+            throw new WrongResultsException("Too many or not enough arguments.");
         }
 
         List<Integer> currentResults = new ArrayList<>();
 
         for (Integer arg : args) {
             if (!isArgumentInRange(arg)) {
-                throw new WrongResultsException("Argument out of range");
+                throw new WrongResultsException("Argument out of range.");
             }
 
             currentResults.add(arg);
@@ -87,7 +91,7 @@ public class DiceModel {
      * @param results The list of sorted dice values.
      * @return A message describing the result of the game.
      */
-    public String getGameResultMessage(List<Integer> results) {
+    public String evaluateGameResultMessage(List<Integer> results) {
         if (isFiveOfAKind(results)) {
             return "Five of a kind!";
         } else if (isFourOfAKind(results)) {

@@ -3,8 +3,8 @@ package model;
 /**
  * Custom exception class for handling errors related to incorrect results in the dice game model.
  *
- * @author grzelu
- * @version 2.0
+ * @author Grzegorz Dziedzic
+ * @version 1.3
  */
 public class WrongResultsException extends Exception {
     

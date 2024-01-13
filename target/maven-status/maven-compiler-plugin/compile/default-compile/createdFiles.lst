@@ -1,9 +1,12 @@
+controller/DiceGameSimulator$1.class
+utils/package-info.class
 utils/ParserUtils.class
 controller/DiceGameSimulator.class
 model/DiceModel.class
 view/package-info.class
+view/DiceGUI.class
 model/ResultProcessor.class
 model/package-info.class
 model/WrongResultsException.class
 controller/package-info.class
-view/DiceView.class
+view/DiceGUI$1.class

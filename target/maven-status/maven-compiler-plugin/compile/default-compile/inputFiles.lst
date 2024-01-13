@@ -1,8 +1,9 @@
 /home/grzelu/Code/DiceGameSimulator/src/main/java/utils/ParserUtils.java
+/home/grzelu/Code/DiceGameSimulator/src/main/java/utils/package-info.java
 /home/grzelu/Code/DiceGameSimulator/src/main/java/model/WrongResultsException.java
+/home/grzelu/Code/DiceGameSimulator/src/main/java/view/DiceGUI.java
 /home/grzelu/Code/DiceGameSimulator/src/main/java/model/DiceModel.java
 /home/grzelu/Code/DiceGameSimulator/src/main/java/model/package-info.java
 /home/grzelu/Code/DiceGameSimulator/src/main/java/controller/package-info.java
 /home/grzelu/Code/DiceGameSimulator/src/main/java/view/package-info.java
 /home/grzelu/Code/DiceGameSimulator/src/main/java/controller/DiceGameSimulator.java
-/home/grzelu/Code/DiceGameSimulator/src/main/java/view/DiceView.java

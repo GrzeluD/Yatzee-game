@@ -9,8 +9,8 @@ import java.util.List;
  * Handles conversion from string array to a list of integers, validating each
  * element.
  *
- * @author grzelu
- * @version 2.0
+ * @author Grzegorz Dziedzic
+ * @version 1.3
  */
 public class ParserUtils {
 
@@ -19,11 +19,9 @@ public class ParserUtils {
      *
      * @param args The string array to be parsed.
      * @return A list of integers parsed from the input string array.
-     * @throws NumberFormatException If any element in the array is not a valid
-     * integer.
      * @throws WrongResultsException If validation of any element fails.
      */
-    public List<Integer> parseStringArray(String[] args) throws NumberFormatException, WrongResultsException {
+    public List<Integer> parseStringArray(String[] args) throws WrongResultsException {
         List<Integer> integers = new ArrayList<>();
 
         if (args.length != 0) {
